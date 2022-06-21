@@ -1,0 +1,52 @@
+
+
+body{
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);  /* Atribuindo a cor de fundo */
+    color: white; /*Atribuindo cor as letras do body */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /*Definindo a fonte (que pode ou não ser baixada de terceiros) */
+    max-width: 1200px; /*Definindo a largura maxima particularmente acho que cabe o bom senso */
+    margin: 0 auto; /*Definindo a margem */
+    padding: 15px; /*Definindo a distância das bordas*/
+}
+
+header{
+    display: flex; /*To defininfo o cabeçalho como uma FLEX BOX**  */
+    flex-direction: row; /*Definindo o comportamento do cabeçalho em linha(row)*/
+    justify-content: space-between; /* */
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color: rgb(255, 255, 255);
+}
+
+a:hover{
+    color: rgb(1, 0, 1);
+    transition: 0.5s all;
+}
+
+#inscreva-se-btn{
+    border: 3px solid rgb(1, 0, 1);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#inscreva-se-btn:hover{
+    background-color: rgb(1, 0, 1);
+    color: rgb(255, 255, 255);
+}
+
+h1{
+    font-weight: 200;
+}
+
