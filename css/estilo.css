@@ -5,14 +5,14 @@ html {
 body{
 	margin: 0;
 	font-family: OCR A Std, monospace;
-	/*
-    background: url(../img/logo.png) repeat-x;
-    */
+	
+    
+    
 }
 
 /*-----------------------------Link-----------------------------*/
 a:link, a:active, a:visited{
-	color: #af670a;
+	color: #161615;
 	text-decoration: none;
 }
 
@@ -25,9 +25,9 @@ a:hover{
 	width: 100px;
 	height: 36px;
     float: left;
-	/*
-    background: url(../img/logo.png) no-repeat;
-    */
+	
+    background: url(img/logo.png) repeat-x;
+    
 }
 
 #logo h1 {
