@@ -4,7 +4,8 @@ html {
 
 body{
 	margin: 0;
-	font-family: OCR A Std, monospace;
+	font-family: Abril Faltface
+	;
 	
     
     
@@ -25,9 +26,9 @@ a:hover{
 	width: 100px;
 	height: 36px;
     float: left;
-	
-    background: url(img/logo.png) repeat-x;
-    
+	/*
+    background: url(../img/logo.png) no-repeat;
+    */
 }
 
 #logo h1 {
@@ -44,7 +45,7 @@ a:hover{
 nav {
 	width: 683px;
 	height: 36px;
-	background: #C7CECA;
+	background: #FFD7D7;
     position: fixed;
     z-index: 1;
 }
