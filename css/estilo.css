@@ -1,0 +1,236 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body{
+	margin: 0;
+	font-family: Abril Faltface;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+	opacity: 0%;
+}
+
+.borda {
+	padding: 3px 15px 3px 15px;
+	border: 2px solid black;
+	border-radius: 15px;
+	background: #FFD7D7;
+}
+.borda:hover{
+	color: #FFD7D7;
+	background: black;
+}
+/*-----------------------------Link-----------------------------*/
+a:link, a:active, a:visited{
+	color: black;
+	text-decoration: none;
+}
+
+/*-----------------------------Logo-----------------------------*/
+#logo {
+	width: 100px;
+	height: 36px;
+	margin-top: .5%;
+	margin-left: 80px;
+}
+ 
+#logo a:hover {
+	color: white;
+}
+
+.maior {
+	margin: 0 auto;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+.menor {
+	font-size: 0.75em;
+	margin-top: 0;
+	font-style: italic;
+}
+/*-----------------------------Icon-----------------------------*/
+#icon {
+	top: 15px;
+	right: 15px;
+	height: 36px;
+	position: absolute;
+}
+
+#insta {
+	width: 20px;
+	height: 20px;
+	float: left;
+	background: url(../css/img/nav.png/instagram.png) no-repeat;
+	background-size: cover;
+	margin-right: 15px;/* espaçamento entre os icones*/
+}
+
+#zap {
+	width: 20px;
+	height: 20px;
+	float: left;
+	background: url(../css/img/nav.png/WhatsApp.png) no-repeat;
+	background-size: cover;
+}
+/*-----------------------------Nav-----------------------------*/
+#menu {
+	top: -5px;
+	right: 70px;
+	height: 36px;
+	position: absolute;
+}
+
+nav {
+	width: 947px;
+	height: 48px;
+	display: block;
+	background: #FFD7D7;
+    position: fixed;
+    z-index: 1;
+	opacity: 75%;
+}
+
+nav ul {
+	list-style: none;
+	float: right;
+}
+
+nav ul li {
+	float: left;
+	font-weight: bold;
+}
+
+nav ul li a{
+	display: block;
+	margin-right: 15px; /*espaçamento entre os itens*/
+	text-transform: uppercase;
+}
+nav ul li a:hover{
+	color: #FFD7D7;
+}
+
+/*-----------------------------Div-----------------------------*/
+header {
+	width: 947px;
+	height: 470px;
+	margin: 0 auto;
+	background: url(../css/img/hero.png/hero.png) no-repeat;
+	background-size: cover;
+}
+
+#bot {
+	width: 260.5px;
+	height: 172.5px;
+    position: absolute;
+    top: 155px;
+    left: 360px;
+    z-index: 0;
+
+	background: url(../css/img/hero.png/cliqueaqui.png) no-repeat;
+	background-size: cover;
+}
+
+#container{
+	width: 1345px;
+	margin: 0 auto;
+	/*left: 132px;*/
+	position: absolute;
+	border: 1px solid green;
+}
+
+/*-----------------------------Principal-----------------------------*/
+#conteudo{
+	width: 824px;
+    height: 154.5px;
+    position: absolute;
+    top: 392.75px;
+    left: 260px;
+    /*132px + 260px*/
+    z-index: 0;
+	background: url(../css/img/hero.png/promocao.png) no-repeat;
+	background-size: cover;
+}
+
+/*-----------------------------Serviços-----------------------------*/
+#produtos{
+	width: 947px;
+	height: 752px;
+    margin: 0 auto;
+    background: #FFF5F5;
+}
+
+/*-----------------------------Sobre Nós-----------------------------*/
+#sobre {
+	width: 947px;
+	height: 552.7px;
+    margin: 0 auto;
+    background: #FFF5F5;
+}
+
+/*-----------------------------Outro-----------------------------*/
+#depoimentos {
+	width: 947px;
+	height: 486.5px;
+	margin: 0 auto;
+    background: #FFF5F5;
+}
+
+/*-----------------------------footer-----------------------------*/
+footer {
+	width: 947px;
+	height: 187px;
+	margin: 0 auto;
+    background: #C7CECA;
+}
+
+#copy{
+	right: 200px;
+	bottom: 0;
+	position: absolute;
+}
+
+.contatos{
+	color: white;
+	/**/
+}
+
+/*-----------------------------Div Botão-----------------------------*/
+#bot1 {
+	width: 122px;
+	height: 26px;
+    border-radius: 40px;
+    background: #C7CECA;
+    position: absolute;
+    top: 1470px;
+    left: 392px;
+    z-index: 0;
+}
+/*-----------------------------Div Botão-----------------------------*/
+#card {
+	width: 36px;
+	height: 36px;
+    border: 1px solid #828885;
+    
+	float: left;
+
+    margin-top: 77.5px;
+    margin-left: 100px;
+    margin-right: 77.5px;
+    margin-bottom: 77.5px;
+
+}
+
+
+/*-----------------------------Teste-----------------------------*/
+p {
+	margin: .3em;
+    text-align: center;
+}
+h2 {
+	margin: .3em;
+    text-align: center;
+}
