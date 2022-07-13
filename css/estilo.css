@@ -160,7 +160,7 @@ header {
 	width: 947px;
 	height: 752px;
     margin: 0 auto;
-    background: #FFF5F5;
+    background: #EDA9A9;
 }
 
 /*-----------------------------Sobre Nós-----------------------------*/
@@ -211,16 +211,16 @@ footer {
 }
 /*-----------------------------Div Botão-----------------------------*/
 #card {
-	width: 36px;
-	height: 36px;
-    border: 1px solid #828885;
+	width: 160px;
+	height: 300px;
+   
     
 	float: left;
 
-    margin-top: 77.5px;
-    margin-left: 100px;
+    margin-top: 10px;
+    margin-left: 77.5px;
     margin-right: 77.5px;
-    margin-bottom: 77.5px;
+    margin-bottom: 10px;
 
 }
 
@@ -233,4 +233,46 @@ p {
 h2 {
 	margin: .3em;
     text-align: center;
+}
+
+#Lingerie1{
+	background: url(../css/img/lingeriefloralvermelha.png) no-repeat;
+	background-size: cover;
+	width: 161px;
+	height: 210px;
+}
+
+#Lingerie2{
+	background: url(../css/img/lingeriebranca1.png) no-repeat;
+	background-size: cover;
+	width: 161px;
+	height: 210px;
+}
+
+#Lingerie3{
+	background: url(../css/img/lingerierosa.png) no-repeat;
+	background-size: cover;
+	width: 161px;
+	height: 210px;
+}
+
+#Dildo1{
+	background: url(../css/img/vibradorroxo.png) no-repeat;
+	background-size: cover;
+	width: 161px;
+	height: 210px;
+}
+
+#Dildo2{
+	background: url(../css/img/dildoamor1.png) no-repeat;
+	background-size: cover;
+	width: 161px;
+	height: 210px;
+}
+
+#Dildo3{
+	background: url(../css/img/kitpompoarismonovaball1.png) no-repeat;
+	background-size: cover;
+	width: 161px;
+	height: 210px;
 }
