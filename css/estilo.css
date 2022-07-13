@@ -19,10 +19,13 @@ img {
 	border-radius: 15px;
 	background: #FFD7D7;
 }
+
 .borda:hover{
 	color: #FFD7D7;
 	background: black;
+	transition: 0.5s;
 }
+
 /*-----------------------------Link-----------------------------*/
 a:link, a:active, a:visited{
 	color: black;
@@ -39,6 +42,7 @@ a:link, a:active, a:visited{
  
 #logo a:hover {
 	color: white;
+	transition: 0.5s;
 }
 
 .maior {
@@ -90,7 +94,7 @@ nav {
 	display: block;
 	background: #FFD7D7;
     position: fixed;
-    z-index: 1;
+    z-index: 5;
 	opacity: 75%;
 }
 
@@ -166,17 +170,107 @@ header {
 /*-----------------------------Sobre Nós-----------------------------*/
 #sobre {
 	width: 947px;
-	height: 552.7px;
+	height: 500px;
     margin: 0 auto;
+    background: #FFF5F5;
+	z-index: 1;
+}
+
+#paragrafo-sobre{
+	width: 50%;
+	height: 500px;
+	float: left;
+}
+
+#fundo-sobre{
+	width: 50%;
+	height: 500px;
+	float: left;
+	background: url(../css/img/sobre.png) no-repeat;
+	background-size: cover;
+}
+
+.paragrafo{
+	font-family: 'Times New Roman', Times, serif;
+	color: #9A1808;
+	margin: 20%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+.sobre {
+	color: #9A1808;
+	text-align: right;	
+	font-weight: bold;
+	margin-right: 3px;
+	margin-top: 30px;
+	font-size: 1.1em;
+}
+
+.nos {
+	color: #FFF3F3;
+	text-align: left;
+	font-weight: bold;
+	margin-left: 3px;
+	margin-top: 30px;
+	font-size: 1.1em;
+}
+
+/*-----------------------------Depoimentos-----------------------------*/
+#depoimentos {
+	width: 947px;
+	height: 700px;
+	margin: 0 auto;
     background: #FFF5F5;
 }
 
-/*-----------------------------Outro-----------------------------*/
-#depoimentos {
-	width: 947px;
-	height: 486.5px;
-	margin: 0 auto;
-    background: #FFF5F5;
+#depoi {
+	width: 100%;
+	height: 20%;
+	float: left;
+}
+#avaliacao{
+	width: 60%;
+	height: 80%;
+	float: left;
+}
+
+#comentario{
+	width: 40%;
+	height: 80%;
+	float: right;
+}
+
+.texto-av{
+	width: 325px;
+	height: 120px;
+
+	float: right;
+	margin-bottom: 35px;
+	border-left: 3px solid gray;
+}
+.av{
+	width: 135px;
+	height: 125px;
+	margin: 0px 20px 30px 75px;
+}
+#av1{
+	float: left;
+	background: url(../css/img/depoimentos/Ellipse1.png);
+	background-size: cover;
+}
+
+#av2{
+	float: left;
+	background: url(../css/img/depoimentos/Ellipse2.png);
+	background-size: cover;
+}
+
+#av3{
+	float: left;
+	background: url(../css/img/depoimentos/Ellipse3.png);
+	background-size: cover;
 }
 
 /*-----------------------------footer-----------------------------*/
@@ -223,7 +317,6 @@ footer {
     margin-bottom: 10px;
 
 }
-
 
 /*-----------------------------Teste-----------------------------*/
 p {
