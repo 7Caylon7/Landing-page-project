@@ -4,7 +4,7 @@ html {
 
 body{
 	margin: 0;
-	font-family: Abril Faltface;
+	font-family: 'Abril Fatface', serif;
 }
 
 img {
@@ -48,12 +48,14 @@ a:link, a:active, a:visited{
 .maior {
 	margin: 0 auto;
 	font-size: 1.3em;
+	font-family: 'Abril Fatface', serif;
 	font-weight: bold;
 }
 
 .menor {
 	font-size: 0.75em;
 	margin-top: 0;
+	font-family: 'Allura', serif;
 	font-style: italic;
 }
 /*-----------------------------Icon-----------------------------*/
@@ -180,6 +182,7 @@ header {
 	width: 50%;
 	height: 500px;
 	float: left;
+	font-family: 'Abril Fatface', cursive;
 }
 
 #fundo-sobre{
@@ -191,17 +194,19 @@ header {
 }
 
 .paragrafo{
-	font-family: 'Times New Roman', Times, serif;
+	font-family: 'Abril Fatface', serif;
 	color: #9A1808;
 	margin: 20%;
 	text-align: center;
-	font-weight: bold;
 	font-size: 1.1em;
+	letter-spacing: 8%;
+	line-height: 200%;
 }
 
 .sobre {
 	color: #9A1808;
 	text-align: right;	
+	font-family: 'Exo', sans-serif;
 	font-weight: bold;
 	margin-right: 3px;
 	margin-top: 30px;
@@ -211,6 +216,7 @@ header {
 .nos {
 	color: #FFF3F3;
 	text-align: left;
+	font-family: 'Exo', sans-serif;
 	font-weight: bold;
 	margin-left: 3px;
 	margin-top: 30px;
