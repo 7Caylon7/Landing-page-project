@@ -326,6 +326,7 @@ footer {
 
 /*-----------------------------Teste-----------------------------*/
 p {
+	font-family: 'Exo', sans-serif;
 	margin: .3em;
     text-align: center;
 }
@@ -341,12 +342,17 @@ h2 {
 	height: 210px;
 }
 
+.Lingerie1{
+	color: #EDA9A9;
+}
+
 #Lingerie2{
 	background: url(../css/img/lingeriebranca1.png) no-repeat;
 	background-size: cover;
 	width: 161px;
 	height: 210px;
 }
+
 
 #Lingerie3{
 	background: url(../css/img/lingerierosa.png) no-repeat;
