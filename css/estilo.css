@@ -38,15 +38,12 @@ a:link, a:active, a:visited{
 
 /*-----------------------------Logo-----------------------------*/
 #logo {
+	background: url(../css/img/footer/logo2.png);
+	background-size: cover;
 	width: 100px;
-	height: 36px;
-	margin-top: .5%;
+	height: 45px;
+	margin-top: 0px;
 	margin-left: 80px;
-}
- 
-#logo a:hover {
-	color: white;
-	transition: 0.5s;
 }
 
 /*-----------------------------Icon-----------------------------*/
@@ -120,11 +117,11 @@ header {
 }
 
 #bot {
-	width: 260.5px;
-	height: 172.5px;
-    position: absolute;
-    top: 155px;
-    left: 360px;
+	width: 286px;
+	height: 189px;
+    position: relative;
+    top: 190px;
+    left: 70px;
     z-index: 0;
 
 	background: url(../css/img/hero.png/cliqueaqui.png) no-repeat;
@@ -155,7 +152,7 @@ header {
 /*-----------------------------Serviços-----------------------------*/
 #produtos{
 	font-family: 'Exo', sans-serif;
-	font-family: 'Stick No Bills', sans-serif;
+	font-family: 'Stick no Bills', sans-serif;
 	width: 947px;
 	height: 800px;
     margin: 0 auto;
@@ -280,9 +277,16 @@ footer {
     background-image: linear-gradient(to top, white, #FFD7D7)
 }
 
-#logo{
+#logo2 {
 	background: url(../css/img/footer/logo2.png);
 	background-size: cover;
+	position: relative;
+	width: 100px;
+	height: 60px;
+	top: 10px;
+
+	/*margin-top: 0px;*/
+	margin-left: 80px;
 }
 
 #copy{
@@ -297,11 +301,14 @@ footer {
 }
 
 #contatos{
-	height: 30px;
-	width: 473,5px;
+	position: relative;
+	width: 86px;
+	height: 10px;
+	left: 445px;
+	top: -30px;
 	text-align: center;
-    line-height: 100%;
-	letter-spacing: 10%;
+    line-height: 0.1em;
+	letter-spacing: 0.1em;
 
 	font-family: 'Abril Faltface', serif;
 	font-size: 22;
@@ -310,8 +317,8 @@ footer {
 }
 
 .contatos{
-    line-height: 79%;
-	letter-spacing: 29%;
+    line-height: 0.7em;
+	letter-spacing: 0.2em;
 
 	font-family: 'Bona Nova', serif;
 	font-size: 20;
@@ -324,10 +331,11 @@ footer {
 	height: 10px;
 	width: 900px;
 	nav-left: 200px;
-	position: absolute;
+	position: relative;
+	left: 400px;
+	top: -30px;
 	bottom: 5%;
-	text-align: right;
-
+	text-align: center;
 
 	line-height: 100%;
 	letter-spacing: 10%;
@@ -358,7 +366,6 @@ footer {
 	width: 160px;
 	height: 300px;
    
-    
 	float: left;
 
     margin-top: 10px;
