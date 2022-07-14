@@ -225,11 +225,17 @@ header {
 	width: 100%;
 	height: 20%;
 	float: left;
+
+	font-size: 16;
+	font-family: 'Exo';
+	font-weight: bold;
+	color: #9A1808;
 }
 #avaliacao{
 	width: 60%;
 	height: 80%;
 	float: left;
+
 }
 
 #comentario{
