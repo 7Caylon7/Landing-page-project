@@ -293,6 +293,11 @@ footer {
     background-image: linear-gradient(to top, white, #FFD7D7)
 }
 
+#logo{
+	background: url(../css/img/footer/logo2.png);
+	background-size: cover;
+}
+
 #copy{
 	right: 200px;
 	bottom: 0;
@@ -304,7 +309,10 @@ footer {
 	color: rgba(0, 0, 0, 0.65);
 }
 
-#indice{
+#contatos{
+	height: 30px;
+	width: 473,5px;
+	text-align: center;
     line-height: 100%;
 	letter-spacing: 10%;
 
@@ -313,6 +321,7 @@ footer {
 
 	color: #000
 }
+
 .contatos{
     line-height: 79%;
 	letter-spacing: 29%;
@@ -324,6 +333,28 @@ footer {
 	/**/
 }
 
+#pagamentos{
+	height: 10px;
+	width: 900px;
+	nav-left: 200px;
+	position: absolute;
+	bottom: 5%;
+	text-align: right;
+
+
+	line-height: 100%;
+	letter-spacing: 10%;
+
+	font-family: 'Abril Faltface', serif;
+	font-size: 22;
+
+	color: #000
+}
+
+#visaemaster{
+	background: url(../css/img/footer/visaemaster.png);
+	background-size: cover;
+}
 /*-----------------------------Div Botão-----------------------------*/
 #bot1 {
 	width: 122px;
@@ -405,10 +436,6 @@ h2 {
 	background-size: cover;
 	width: 184px;
 	height: 240px;
-}
-
-.Lingerie1{
-	color: #EDA9A9;
 }
 
 #Lingerie2{
