@@ -145,7 +145,7 @@ header {
     left: 260px;
     /*132px + 260px*/
     z-index: 0;
-	background: url(../css/img/hero.png/promocao.png) no-repeat;
+	background: url(../css/img/hero.png/novapromo.png) no-repeat;
 	background-size: cover;
 }
 
@@ -310,22 +310,26 @@ footer {
 	position: relative;
 	width: 86px;
 	height: 10px;
-	left: 445px;
-	top: -30px;
+	left: 433px;
+	top: -48px;
+
 	text-align: center;
     line-height: 0.1em;
 	letter-spacing: 0.1em;
-
 	font-family: 'Abril Faltface', serif;
 	font-size: 22;
+	font-weight: bold;
 
 	color: #000
 }
 
 .contatos{
-    line-height: 0.7em;
+	position: relative;
+    line-height: 1em;
 	letter-spacing: 0.2em;
+	top: -30px;
 
+	text-align: center;
 	font-family: 'Bona Nova', serif;
 	font-size: 20;
 
@@ -338,8 +342,8 @@ footer {
 	width: 900px;
 	nav-left: 200px;
 	position: relative;
-	left: 400px;
-	top: -30px;
+	left: 380px;
+	top: -40px;
 	bottom: 5%;
 	text-align: center;
 
@@ -348,6 +352,7 @@ footer {
 
 	font-family: 'Abril Faltface', serif;
 	font-size: 22;
+	font-weight: bold;
 
 	color: #000
 }
