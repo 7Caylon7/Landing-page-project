@@ -49,19 +49,6 @@ a:link, a:active, a:visited{
 	transition: 0.5s;
 }
 
-.maior {
-	margin: 0 auto;
-	font-size: 1.3em;
-	font-family: 'Abril Fatface', serif;
-	font-weight: bold;
-}
-
-.menor {
-	font-size: 0.75em;
-	margin-top: 0;
-	font-family: 'Allura', serif;
-	font-style: italic;
-}
 /*-----------------------------Icon-----------------------------*/
 #icon {
 	top: 15px;
@@ -392,27 +379,12 @@ h2 {
     text-align: center;
 }
 
-#lingerie{
-	position: absolute;
+#setores{
+	position: relative;
 	width: 86px;
-	height: 24px;
-	left: 638px;
-	top: 560px;
-	font-family: 'Exo';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 14px;
-	line-height: 150%;
-	letter-spacing: 0.08em;
-	color: #9A1808;
-}
-
-#sexshop{
-	position: absolute;
-	width: 83px;
-	height: 24px;
-	left: 640px;
-	top: 910px;
+	height: 10px;
+	left: 445px;
+	top: 0px;
 
 	font-family: 'Exo';
 	font-style: normal;
@@ -422,13 +394,14 @@ h2 {
 	letter-spacing: 0.08em;
 	color: #9A1808;
 }
+
 #vector{
-	position: absolute;
+	position: relative;
 	width: 100px;
 	height: 0px;
 	left: -12px;
-	top: 13px;
-	border: 1px solid rgba(37, 33, 33, 0.19);
+	top: -16px;
+	border: 0.1px solid rgba(37, 33, 33, 0.19);
 }
 
 #Lingerie1{
@@ -475,12 +448,13 @@ h2 {
 	height: 240px;
 }
 
-#TitleL1{
-	position: absolute;
+
+#Title{
+	position: relative;
 	width: 230px;
 	height: 45px;
-	left: 240px;
-	top: 840px;
+	left: -22px;
+	top: 0px;
 
 	font-family: 'Exo';
 	font-style: normal;
@@ -492,178 +466,17 @@ h2 {
 	letter-spacing: 0.3em;
 
 	color: rgba(0, 0, 0, 0.65);
+	
 }
 
-#preco1{
+#preco{
 	font-weight: bold;
 	font-size: 12px;
-	position: absolute;
+	position: relative;
 	width: 230px;
 	height: 45px;
-	left: 240px;
-	top: 874px;
-
-	text-align: center;
-	letter-spacing: 0.3em;
-}
-
-
-#TitleL2{
-	position: absolute;
-	width: 230px;
-	height: 45px;
-	left: 560px;
-	top: 840px;
-
-	font-family: 'Exo';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 10px;
-	line-height: 150%;
-
-	text-align: center;
-	letter-spacing: 0.3em;
-
-	color: rgba(0, 0, 0, 0.65);
-}
-
-#preco2{
-	font-weight: bold;
-	font-size: 12px;
-	position: absolute;
-	width: 230px;
-	height: 45px;
-	left: 560px;
-	top: 874px;
-
-	text-align: center;
-	letter-spacing: 0.3em;
-}
-
-#TitleL3{
-	position: absolute;
-	width: 230px;
-	height: 45px;
-	left: 875px;
-	top: 840px;
-
-	font-family: 'Exo';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 10px;
-	line-height: 150%;
-
-	text-align: center;
-	letter-spacing: 0.3em;
-
-	color: rgba(0, 0, 0, 0.65);
-}
-
-#preco3{
-	font-weight: bold;
-	font-size: 12px;
-	position: absolute;
-	width: 230px;
-	height: 45px;
-	left: 875px;
-	top: 874px;
-
-	text-align: center;
-	letter-spacing: 0.3em;
-}
-
-#TitleL4{
-	position: absolute;
-	width: 230px;
-	height: 45px;
-	left: 240px;
-	top: 1170px;
-
-	font-family: 'Exo';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 10px;
-	line-height: 150%;
-
-	text-align: center;
-	letter-spacing: 0.3em;
-
-	color: rgba(0, 0, 0, 0.65);
-}
-
-#preco4{
-	font-weight: bold;
-	font-size: 12px;
-	position: absolute;
-	width: 230px;
-	height: 45px;
-	left: 240px;
-	top: 1220px;
-
-	text-align: center;
-	letter-spacing: 0.3em;
-}
-
-
-#TitleL5{
-	position: absolute;
-	width: 230px;
-	height: 45px;
-	left: 560px;
-	top: 1170px;
-
-	font-family: 'Exo';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 10px;
-	line-height: 150%;
-
-	text-align: center;
-	letter-spacing: 0.3em;
-
-	color: rgba(0, 0, 0, 0.65);
-}
-
-#preco5{
-	font-weight: bold;
-	font-size: 12px;
-	position: absolute;
-	width: 230px;
-	height: 45px;
-	left: 560px;
-	top: 1185px;
-
-	text-align: center;
-	letter-spacing: 0.3em;
-}
-
-#TitleL6{
-	position: absolute;
-	width: 230px;
-	height: 45px;
-	left: 875px;
-	top: 1170px;
-
-	font-family: 'Exo';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 10px;
-	line-height: 150%;
-
-	text-align: center;
-	letter-spacing: 0.3em;
-
-	color: rgba(0, 0, 0, 0.65);
-}
-
-#preco6{
-	font-weight: bold;
-	font-size: 12px;
-	position: absolute;
-	width: 230px;
-	height: 45px;
-	left: 875px;
-	top: 1185px;
+	left: -22px;
+	top: -15px;
 
 	text-align: center;
 	letter-spacing: 0.3em;
@@ -675,6 +488,6 @@ h2 {
 	position: absolute;
 	width: 20px;
 	height: 20px;
-	left: 150px;
-	top: 0px;
+	left: 160px;
+	top: -2px;
 }
