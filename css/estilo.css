@@ -346,6 +346,50 @@ footer {
 	/**/
 }
 
+#loc{
+	top: -146px;
+	left: 335px;
+	width: 20px;
+	height: 20px;
+	float: left;
+	position: relative;
+	background: url(../css/img/footer/localizacao.png) no-repeat;
+	background-size: cover;
+}
+
+#email{
+	top: -122px;
+	left: 310px;
+	width: 20px;
+	height: 20px;
+	float: left;
+	position: relative;
+	background: url(../css/img/footer/email.png) no-repeat;
+	background-size: cover;
+	
+}
+
+#whats{
+	top: -93px;
+	left: 315px;
+	width: 20px;
+	height: 20px;
+	float: left;
+	position: relative;
+	background: url(../css/img/footer/zap.png) no-repeat;
+	background-size: cover;
+}
+
+#tel{
+	top: -66px;
+	left: 298px;
+	width: 25px;
+	height: 15px;
+	float: left;
+	position: relative;
+	background: url(../css/img/footer/telefone.png) no-repeat;
+	background-size: cover;
+}
 #pagamentos{
 	height: 10px;
 	width: 900px;
