@@ -461,13 +461,13 @@ h2 {
 	width: 86px;
 	height: 10px;
 	left: 445px;
-	top: 0px;
+	top: -1px;
 
 	font-family: 'Exo';
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 100s;
 	font-size: 14px;
-	line-height: 150%;
+	
 	letter-spacing: 0.08em;
 	color: #9A1808;
 }
@@ -483,7 +483,7 @@ h2 {
 
 
 #Lingerie1{
-	background: url(../css/img/lingeriefloralvermelha.png) no-repeat;
+	background: url(../css/img/lingeriefloralvermelha.png);
 	background-size: cover;
 	width: 184px;
 	height: 240px;
@@ -495,10 +495,12 @@ h2 {
 }
 
 #Lingerie2{
-	background: url(../css/img/lingeriebranca1.png) no-repeat;
+	background: url(../css/img/lingeriebranca1.png);
 	background-size: cover;
 	width: 184px;
 	height: 240px;
+	position: relative;
+	z-index: 1;
 }
 
 #Lingerie2:hover{
@@ -507,7 +509,7 @@ h2 {
 }
 
 #Lingerie3{
-	background: url(../css/img/lingerierosa.png) no-repeat;
+	background: url(../css/img/lingerierosa.png);
 	background-size: cover;
 	width: 184px;
 	height: 240px;
@@ -520,7 +522,7 @@ h2 {
 
 
 #Dildo1{
-	background: url(../css/img/vibradorroxo.png) no-repeat;
+	background: url(../css/img/vibradorroxo.png);
 	background-size: cover;
 	width: 184px;
 	height: 240px;
@@ -532,7 +534,7 @@ h2 {
 }
 
 #Dildo2{
-	background: url(../css/img/dildoamor1.png) no-repeat;
+	background: url(../css/img/dildoamor1.png);
 	background-size: cover;
 	width: 184px;
 	height: 240px;
@@ -544,7 +546,7 @@ h2 {
 }
 
 #Dildo3{
-	background: url(../css/img/kitpompoarismonovaball1.png) no-repeat;
+	background: url(../css/img/kitpompoarismonovaball1.png);
 	background-size: cover;
 	width: 184px;
 	height: 240px;
@@ -573,7 +575,7 @@ h2 {
 	letter-spacing: 0.3em;
 
 	color: rgba(0, 0, 0, 0.65);
-	
+	z-index: 2;
 }
 
 #preco{
