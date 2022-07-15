@@ -329,14 +329,18 @@ footer {
 }
 
 .contatos{
+	width: 930px;
+	height: 15px;
 	position: relative;
-    line-height: 1em;
-	letter-spacing: 0.2em;
-	top: -30px;
-
+    top: -50px;
+	float: right;
+	
 	text-align: center;
-	font-family: 'Bona Nova', serif;
 	font-size: 20;
+	font-family: 'Bona Nova', serif;
+	line-height: 1em;
+	letter-spacing: 0.2em;
+	
 
 	color: #000;
 	/**/
