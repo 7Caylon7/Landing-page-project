@@ -230,6 +230,8 @@ header {
 	width: 100%;
 	height: 20%;
 	float: left;
+	top: 20px;
+	position: relative;
 
 	font-size: 16;
 	font-family: 'Exo';
@@ -256,6 +258,10 @@ header {
 	float: right;
 	margin-bottom: 35px;
 	border-left: 3px solid gray;
+
+	position: relative;
+	top: -200px;
+	right: 10px;
 }
 .av{
 	width: 135px;
@@ -264,18 +270,38 @@ header {
 }
 #av1{
 	float: left;
+	position: relative;
+	top: 10px;
 	background: url(../css/img/depoimentos/Ellipse1.png);
 	background-size: cover;
 }
 
+.coment1{
+	width: 400px;
+	height: 50px;
+	float: left;
+	position:relative;
+	text-align: justify;
+	font-size: small;
+	font-family: 'Exo';
+	letter-spacing: 0.1cm;
+	margin-left: 250px;
+	top: -120px;
+	color: #000;
+}
+
 #av2{
 	float: left;
+	position: relative;
+	margin-top: -50px;
 	background: url(../css/img/depoimentos/Ellipse2.png);
 	background-size: cover;
 }
 
 #av3{
 	float: left;
+	position: relative;
+	margin-top: -50px;
 	background: url(../css/img/depoimentos/Ellipse3.png);
 	background-size: cover;
 }
