@@ -363,6 +363,12 @@ footer {
 }
 
 #visaemaster{
+	width: 120px;
+	height: 40px;
+	position: relative;
+	float: right;
+	margin-right: 90px;
+	margin-top: -10px;
 	background: url(../css/img/footer/visaemaster.png);
 	background-size: cover;
 }
