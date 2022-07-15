@@ -347,7 +347,7 @@ footer {
 	width: 900px;
 	nav-left: 200px;
 	position: relative;
-	left: 380px;
+	left: 374px;
 	top: -40px;
 	bottom: 5%;
 	text-align: center;
@@ -361,17 +361,61 @@ footer {
 
 	color: #000
 }
+#picpay {
+	width: 62px;
+	height: 36px;
+	position: relative;
+	float: right;
+	margin-right: 30px;
+	margin-top: -11px;
+	background: url(../css/img/footer/picpay.png);
+	background-size: cover;
+}
 
 #visaemaster{
 	width: 120px;
 	height: 40px;
 	position: relative;
 	float: right;
-	margin-right: 90px;
-	margin-top: -10px;
+	margin-right: 4px;
+	margin-top: -15px;
 	background: url(../css/img/footer/visaemaster.png);
 	background-size: cover;
 }
+
+#elo{
+	width: 58px;
+	height: 36px;
+	position: relative;
+	float: right;
+	margin-right: -184px;
+	margin-top: 29px;
+	background: url(../css/img/footer/elo.png);
+	background-size: cover;
+}
+
+#boleto{
+	width: 57px;
+	height: 44px;
+	position: relative;
+	float: right;
+	margin-right: -57px;
+	margin-top: 25px;
+	background: url(../css/img/footer/boleto.png);
+	background-size: cover;
+}
+
+#hipercard{
+	width: 60px;
+	height: 24px;
+	position: relative;
+	float: right;
+	margin-right: -120px;
+	margin-top: 35px;
+	background: url(../css/img/footer/hipercard.png);
+	background-size: cover;
+}
+
 /*-----------------------------Div Botão-----------------------------*/
 #bot1 {
 	width: 122px;
