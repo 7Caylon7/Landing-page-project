@@ -46,6 +46,11 @@ a:link, a:active, a:visited{
 	margin-left: 80px;
 }
 
+#logo:hover{
+	transform:scale(1.20,1.20);
+	transition: 0.3s;
+}
+
 /*-----------------------------Icon-----------------------------*/
 #icon {
 	top: 15px;
@@ -422,11 +427,17 @@ h2 {
 	border: 0.1px solid rgba(37, 33, 33, 0.19);
 }
 
+
 #Lingerie1{
 	background: url(../css/img/lingeriefloralvermelha.png) no-repeat;
 	background-size: cover;
 	width: 184px;
 	height: 240px;
+}
+
+#Lingerie1:hover{
+	transform:scale(1.15,1.15);
+	transition: 0.4s;
 }
 
 #Lingerie2{
@@ -436,12 +447,21 @@ h2 {
 	height: 240px;
 }
 
+#Lingerie2:hover{
+	transform:scale(1.15,1.15);
+	transition: 0.4s;
+}
 
 #Lingerie3{
 	background: url(../css/img/lingerierosa.png) no-repeat;
 	background-size: cover;
 	width: 184px;
 	height: 240px;
+}
+
+#Lingerie3:hover{
+	transform:scale(1.15,1.15);
+	transition: 0.4s;
 }
 
 
@@ -452,6 +472,11 @@ h2 {
 	height: 240px;
 }
 
+#Dildo1:hover{
+	transform:scale(1.15,1.15);
+	transition: 0.4s;
+}
+
 #Dildo2{
 	background: url(../css/img/dildoamor1.png) no-repeat;
 	background-size: cover;
@@ -459,11 +484,21 @@ h2 {
 	height: 240px;
 }
 
+#Dildo2:hover{
+	transform:scale(1.15,1.15);
+	transition: 0.4s;
+}
+
 #Dildo3{
 	background: url(../css/img/kitpompoarismonovaball1.png) no-repeat;
 	background-size: cover;
 	width: 184px;
 	height: 240px;
+}
+
+#Dildo3:hover{
+	transform:scale(1.15,1.15);
+	transition: 0.4s;
 }
 
 
