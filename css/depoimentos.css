@@ -16,7 +16,7 @@
 	width: 345px;
 	height: 80px;
 	margin-top: 25px;
-	margin-bottom: 50px;
+	margin-bottom: 55px;
 
 	float: left;
 	margin-left: 15px;
@@ -86,6 +86,7 @@ form [type="submit"]:hover{
 	color: #FFF5F5;
 	cursor: pointer;
 	background: #9A1808;
+	transition: 0.5s;
 }
 
 form [type="text"]{
@@ -93,7 +94,7 @@ form [type="text"]{
 }
 
 #coment{
-	height: 120px;
+	padding-bottom: 100px;
 }
 
 /*-----------------------------Imagens dos Depoimentos-----------------------------*/
@@ -162,18 +163,15 @@ form [type="text"]{
     z-index: 0;
 }
 
-
 .star3 {
+	top: 450px;
+    left: 729px;
+	position: relative;
+
 	width: 105px;
 	height: 15px;
-
 	background: url(../img/depoimentos/blackstar.png);
 	background-size: cover;
-    
-	position: relative;
-    top: 450px;
-    left: 729px;
-
     z-index: 0;
 }
 

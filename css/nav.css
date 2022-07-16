@@ -1,8 +1,7 @@
 /*-----------------------------Nav-----------------------------*/
 nav {
-	width: 100%;
-	max-width: 1345px;
-	/*width: 947px;*/
+	/*width: 100%;*/
+	width: 1345px;	
 	
 	height: 48px;
 	margin: 0 auto;
@@ -37,8 +36,8 @@ nav ul li a:hover{
 
 /*-----------------------------Borda do Menu-----------------------------*/
 #menu {
-	top: -5px;
-	left: 600px;
+	top: -7px;
+	left: 700px;
 	height: 36px;
 	position: absolute;
 }
@@ -58,12 +57,13 @@ nav ul li a:hover{
 
 /*-----------------------------Logo-----------------------------*/
 #logo {
-	background: url(../img/footer/logo2.png);
-	background-size: cover;
-	width: 100px;
-	height: 45px;
 	margin-top: 0px;
 	margin-left: 80px;
+
+	width: 80px;
+	height: 45px;
+	background: url(../img/footer/logo2.png);
+	background-size: cover;
 }
 
 #logo:hover{
@@ -83,7 +83,7 @@ nav ul li a:hover{
 	width: 20px;
 	height: 20px;
 	float: left;
-	background: url(../img/nav.png/instagram.png) no-repeat;
+	background: url(../img/nav/instagram.png) no-repeat;
 	background-size: cover;
 	margin-right: 15px;/* espaçamento entre os icones*/
 }
@@ -92,7 +92,7 @@ nav ul li a:hover{
 	width: 20px;
 	height: 20px;
 	float: left;
-	background: url(../img/nav.png/WhatsApp.png) no-repeat;
+	background: url(../img/nav/WhatsApp.png) no-repeat;
 	background-size: cover;
 }
 

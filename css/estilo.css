@@ -64,6 +64,5 @@ h2 {
 	width: 100%;
 	max-width: 1345px;
 	height: 100%;
-	background: url(../img/teste.png) no-repeat;
-	background-size: cover;
+	background: url(../img/teste1.png) repeat;
 }

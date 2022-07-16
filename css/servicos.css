@@ -2,12 +2,11 @@
 #sevicos{
 	font-family: 'Stick no Bills', sans-serif;
 	
-	width: 100%;
-	max-width: 1345px;
+	/*width: 100%;*/
+	width: 1345px;
 	height: 900px;
 
 	background: #FFF5F5;
-    /*background: #EDA9A9;*/
 }
 #lingerie{
 	width: 100%;
@@ -39,9 +38,6 @@
 #Lingerie2{
 	background: url(../img/produtos/lingerie2.png);
 	background-size: cover;
-
-	position: relative;
-	z-index: 1;
 }
 
 #Lingerie3{
@@ -66,6 +62,11 @@
 
 #Dildo3{
 	background: url(../img/produtos/sexshop3.png);
+	background-size: cover;
+}
+
+#Dildo4{
+	background: url(../img/produtos/sexshop4.png);
 	background-size: cover;
 }
 
@@ -119,10 +120,6 @@
 	left: -12px;
 	top: -16px;
 	border: 0.1px solid rgba(37, 33, 33, 0.19);
-}
-
-#n-link:hover{
-	color: red;
 }
 
 /*-----------------------------Cartões dos Produtos-----------------------------*/

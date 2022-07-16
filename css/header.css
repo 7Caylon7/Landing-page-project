@@ -1,7 +1,7 @@
 /*-----------------------------Header-----------------------------*/
 header {
-	width: 100%;
-	max-width: 1345px;
+	/*width: 100%;*/
+	width: 1345px;
 	height: 560px;
 
 	background: url(../img/header/hero.png) no-repeat;
@@ -9,13 +9,13 @@ header {
 }
 
 #logo-header {
+    top: 230px;
+    left: 100px;
+	position: relative;
+    z-index: 0;
+	
 	width: 285px;
 	height: 190px;
-    position: relative;
-    top: 190px;
-    left: 210px;
-    z-index: 0;
-
 	background: url(../img/header/logo.png) no-repeat;
 	background-size: cover;
 }
