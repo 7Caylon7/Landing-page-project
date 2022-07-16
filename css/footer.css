@@ -1,0 +1,209 @@
+/*-----------------------------footer-----------------------------*/
+footer {
+	width: 100%;
+	max-width: 1345px;
+	height: 300px;
+    background-image: linear-gradient(to top, white, #FFD7D7);
+	float: left;
+}
+
+#colum-1{
+	width: 20%;
+	height: 100%;
+	float: left;
+}
+
+#colum-2{
+	width: 60%;
+	height: 100%;
+	float: left;
+}
+
+#colum-3{
+	width: 20%;
+	height: 100%;
+	float: left;
+}
+
+.footer-info{
+	width: 100%;
+	height: 80%;
+	float: left;
+	padding: 2em;
+}
+/*
+#logo2 {
+	width: 142.5px;
+	height: 95px;
+	background: url(../img/footer/logo2.png);
+	background-size: cover;
+	
+	margin-left: 80px;
+
+	top: 80px;
+	position: relative;
+}
+
+#copy{
+	left: 100px;
+	bottom: -100px;
+
+	position: relative;
+
+	font-family: 'Bona Nova';
+	font-size: 10;
+	
+	color: rgba(0, 0, 0, 0.65);
+}
+
+#contatos{
+	position: relative;
+	width: 86px;
+	height: 10px;
+	left: 433px;
+	top: -48px;
+
+	text-align: center;
+    line-height: 0.1em;
+	letter-spacing: 0.1em;
+	font-family: 'Abril Faltface', serif;
+	font-size: 22;
+	font-weight: bold;
+
+	color: #000
+}
+
+.contatos{
+	width: 930px;
+	height: 15px;
+	position: relative;
+    top: -50px;
+	float: right;
+	
+	text-align: center;
+	font-size: 20;
+	font-family: 'Bona Nova', serif;
+	line-height: 1em;
+	letter-spacing: 0.2em;
+	color: #000;
+}
+
+#loc{
+	top: -146px;
+	left: 335px;
+	width: 20px;
+	height: 20px;
+	float: left;
+	position: relative;
+	background: url(../img/footer/localizacao.png) no-repeat;
+	background-size: cover;
+}
+
+#email{
+	top: -122px;
+	left: 310px;
+	width: 20px;
+	height: 20px;
+	float: left;
+	position: relative;
+	background: url(../img/footer/email.png) no-repeat;
+	background-size: cover;
+	
+}
+
+#whats{
+	top: -93px;
+	left: 315px;
+	width: 20px;
+	height: 20px;
+	float: left;
+	position: relative;
+	background: url(../img/footer/zap.png) no-repeat;
+	background-size: cover;
+}
+
+#tel{
+	top: -66px;
+	left: 298px;
+	width: 25px;
+	height: 15px;
+	float: left;
+	position: relative;
+	background: url(../img/footer/telefone.png) no-repeat;
+	background-size: cover;
+}
+#pagamentos{
+	height: 10px;
+	width: 900px;
+	nav-left: 200px;
+	position: relative;
+	left: 374px;
+	top: -40px;
+	bottom: 5%;
+	text-align: center;
+
+	line-height: 100%;
+	letter-spacing: 10%;
+
+	font-family: 'Abril Faltface', serif;
+	font-size: 22;
+	font-weight: bold;
+
+	color: #000
+}
+
+#picpay {
+	width: 62px;
+	height: 36px;
+	position: relative;
+	float: right;
+	margin-right: 30px;
+	margin-top: -11px;
+	background: url(../img/footer/picpay.png);
+	background-size: cover;
+}
+
+#visaemaster{
+	width: 120px;
+	height: 40px;
+	position: relative;
+	float: right;
+	margin-right: 4px;
+	margin-top: -15px;
+	background: url(../img/footer/visaemaster.png);
+	background-size: cover;
+}
+
+#elo{
+	width: 58px;
+	height: 36px;
+	position: relative;
+	float: right;
+	margin-right: -184px;
+	margin-top: 29px;
+	background: url(../img/footer/elo.png);
+	background-size: cover;
+}
+
+#boleto{
+	width: 57px;
+	height: 44px;
+	position: relative;
+	float: right;
+	margin-right: -57px;
+	margin-top: 25px;
+	background: url(../img/footer/boleto.png);
+	background-size: cover;
+}
+
+#hipercard{
+	width: 60px;
+	height: 24px;
+	position: relative;
+	float: right;
+	margin-right: -120px;
+	margin-top: 35px;
+	background: url(../img/footer/hipercard.png);
+	background-size: cover;
+}
+*/

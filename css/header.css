@@ -1,0 +1,34 @@
+/*-----------------------------Header-----------------------------*/
+header {
+	width: 100%;
+	max-width: 1345px;
+	height: 560px;
+
+	background: url(../img/header/hero.png) no-repeat;
+	background-size: cover;
+}
+
+#logo-header {
+	width: 285px;
+	height: 190px;
+    position: relative;
+    top: 190px;
+    left: 210px;
+    z-index: 0;
+
+	background: url(../img/header/logo.png) no-repeat;
+	background-size: cover;
+}
+
+/*-----------------------------Principal-----------------------------*/
+#conteudo{
+	width: 824px;
+    height: 154.5px;
+    position: absolute;
+    top: 482.75px;
+    left: 260px;
+    /*132px + 260px*/
+    z-index: 0;
+	background: url(../img/header/promo.png) no-repeat;
+	background-size: cover;
+}

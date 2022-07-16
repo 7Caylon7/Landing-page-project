@@ -1,0 +1,98 @@
+/*-----------------------------Nav-----------------------------*/
+nav {
+	width: 100%;
+	max-width: 1345px;
+	/*width: 947px;*/
+	
+	height: 48px;
+	margin: 0 auto;
+
+	background: #FFD7D7;
+
+    z-index: 5;
+	opacity: 75%;
+	
+	top: 0;
+	position: fixed;
+}
+
+nav ul {
+	list-style: none;
+	float: right;
+}
+
+nav ul li {
+	float: left;
+	font-weight: bold;
+}
+
+nav ul li a{
+	display: block;
+	margin-right: 15px; /*espaçamento entre os itens*/
+	text-transform: uppercase;
+}
+nav ul li a:hover{
+	color: #FFD7D7;
+}
+
+/*-----------------------------Borda do Menu-----------------------------*/
+#menu {
+	top: -5px;
+	left: 600px;
+	height: 36px;
+	position: absolute;
+}
+
+.borda {
+	padding: 3px 15px 3px 15px;
+	border: 2px solid black;
+	border-radius: 15px;
+	background: #FFD7D7;
+}
+
+.borda:hover{
+	color: #FFD7D7;
+	background: black;
+	transition: 0.5s;
+}
+
+/*-----------------------------Logo-----------------------------*/
+#logo {
+	background: url(../img/footer/logo2.png);
+	background-size: cover;
+	width: 100px;
+	height: 45px;
+	margin-top: 0px;
+	margin-left: 80px;
+}
+
+#logo:hover{
+	transform:scale(1.20,1.20);
+	transition: 0.3s;
+}
+
+/*-----------------------------Icon-----------------------------*/
+#icon {
+	top: 15px;
+	left: 1270px;
+	height: 36px;
+	position: absolute;
+}
+
+#insta {
+	width: 20px;
+	height: 20px;
+	float: left;
+	background: url(../img/nav.png/instagram.png) no-repeat;
+	background-size: cover;
+	margin-right: 15px;/* espaçamento entre os icones*/
+}
+
+#zap {
+	width: 20px;
+	height: 20px;
+	float: left;
+	background: url(../img/nav.png/WhatsApp.png) no-repeat;
+	background-size: cover;
+}
+
