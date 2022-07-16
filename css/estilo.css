@@ -573,62 +573,62 @@ footer {
 	width: 900px;
 	height: 10px;
 	position: absolute;
-    top: 2520px;
-	left: 224px;
+    top: 2522px;
+	left: 225px;
 	float: right;
 	
 	text-align: center;
-	font-size: 14px;
+	font-size: 15px;
 	color: #000;
 }
 
 .contatos p{
 	font-family: "Bona Nova", serif;
-	line-height::  0.15em;
+	line-height:  1.2em;
 	letter-spacing: 0.3em;
 }
 
 #loc{
-	top: -146px;
-	left: 335px;
+	top: 2547px;
+	left: 524px;
 	width: 20px;
 	height: 20px;
 	float: left;
-	position: relative;
+	position: absolute;
 	background: url(../css/img/footer/localizacao.png) no-repeat;
 	background-size: cover;
 }
 
 #email{
-	top: -122px;
-	left: 310px;
+	top: 2570px;
+	left: 518px;
 	width: 20px;
 	height: 20px;
 	float: left;
-	position: relative;
+	position: absolute;
 	background: url(../css/img/footer/email.png) no-repeat;
 	background-size: cover;
 	
 }
 
 #whats{
-	top: -93px;
-	left: 315px;
+	top: 2595px;
+	left: 542px;
 	width: 20px;
 	height: 20px;
 	float: left;
-	position: relative;
+	position: absolute;
 	background: url(../css/img/footer/zap.png) no-repeat;
 	background-size: cover;
 }
 
 #tel{
-	top: -66px;
-	left: 298px;
+	top: 2620px;
+	left: 567px;
 	width: 25px;
 	height: 15px;
 	float: left;
-	position: relative;
+	position: absolute;
 	background: url(../css/img/footer/telefone.png) no-repeat;
 	background-size: cover;
 }
