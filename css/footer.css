@@ -24,14 +24,6 @@ footer {
 	height: 100%;
 	float: left;
 }
-
-.footer-info{
-	width: 100%;
-	height: 80%;
-	float: left;
-	padding: 2em;
-}
-
 #logo2 {
 	width: 214px;
 	height: 143px;
@@ -42,6 +34,13 @@ footer {
 	top: 60px;	
 	left: 80px;
 	position: relative;
+}
+
+.footer-info{
+	width: 100%;
+	height: 80%;
+	float: left;
+	padding: 2em;
 }
 
 #copy{

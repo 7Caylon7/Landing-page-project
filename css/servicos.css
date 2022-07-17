@@ -1,21 +1,32 @@
 /*-----------------------------Serviços-----------------------------*/
 #sevicos{
-	font-family: 'Stick no Bills', sans-serif;
-	
 	/*width: 100%;*/
 	width: 1345px;
 	height: 900px;
 
 	background: #FFF5F5;
 }
+
 #lingerie{
 	width: 100%;
 	height: 50%;
 }
+
 #sexshop{
 	width: 100%;
 	height: 50%;
 }
+
+.card {
+	width: 160px;
+	height: 300px;
+   
+	float: left;
+
+    margin-top: 10px;
+    margin-left: 135px;
+}
+
 .secao-produtos{
 	height: 80%;
 }
@@ -106,11 +117,11 @@
 .carrinho{
 	background: url(../img/produtos/shopping.png) no-repeat;
 	background-size: cover;
-	position: absolute;
+	position: relative;
 	width: 20px;
 	height: 20px;
+	top: -20px;
 	left: 160px;
-	top: -2px;
 }
 
 #vector{
@@ -122,13 +133,3 @@
 	border: 0.1px solid rgba(37, 33, 33, 0.19);
 }
 
-/*-----------------------------Cartões dos Produtos-----------------------------*/
-.card {
-	width: 160px;
-	height: 300px;
-   
-	float: left;
-
-    margin-top: 10px;
-    margin-left: 135px;
-}

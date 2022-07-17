@@ -36,6 +36,29 @@
 	height: 125px;
 	margin: 0px 0px 30px 70px;
 }
+/*-----------------------------Imagens dos Depoimentos-----------------------------*/
+.box-img p{
+	font-size: 12px;
+	margin-top: 125px;
+	letter-spacing: 0.03cm;
+}
+#img-depoi-1{
+	float: left;
+	background: url(../img/depoimentos/mulher1.png);
+	background-size: cover;
+}
+
+#img-depoi-2{
+	float: left;
+	background: url(../img/depoimentos/mulher2.png);
+	background-size: cover;
+}
+
+#img-depoi-3{
+	float: left;
+	background: url(../img/depoimentos/mulher3.png);
+	background-size: cover;
+}
 /*-----------------------------comentarios-----------------------------*/
 #comentario{
 	width: 35%;
@@ -98,41 +121,16 @@ form [type="text"]{
 #coment{
 	padding-bottom: 100px;
 }
-
-/*-----------------------------Imagens dos Depoimentos-----------------------------*/
-.box-img p{
-	font-size: 12px;
-	margin-top: 125px;
-	letter-spacing: 0.03cm;
-}
-#img-depoi-1{
-	float: left;
-	background: url(../img/depoimentos/mulher1.png);
-	background-size: cover;
-}
-
-#img-depoi-2{
-	float: left;
-	background: url(../img/depoimentos/mulher2.png);
-	background-size: cover;
-}
-
-#img-depoi-3{
-	float: left;
-	background: url(../img/depoimentos/mulher3.png);
-	background-size: cover;
-}
 /*-----------------------------Estrelas-----------------------------*/
 .star {
 	width: 105px;
 	height: 15px;
-
 	background: url(../img/depoimentos/estrelas.png);
 	background-size: cover;
     
-	position: relative;
     top: 150px;
-    left: 240px;
+    left: 240px;	
+	position: relative;
 
     z-index: 0;
 }
@@ -140,13 +138,12 @@ form [type="text"]{
 .star1 {
 	width: 105px;
 	height: 15px;
-
 	background: url(../img/depoimentos/estrelas.png);
 	background-size: cover;
     
-	position: relative;
-    top: 290px;
+    top: 295px;
     left: 240px;
+	position: relative;
 
     z-index: 0;
 }
@@ -154,26 +151,26 @@ form [type="text"]{
 .star2 {
 	width: 105px;
 	height: 15px;
-
 	background: url(../img/depoimentos/estrelas.png);
 	background-size: cover;
     
-	position: relative;
-    top: 430px;
+    top: 440px;
     left: 240px;
+	position: relative;
 
     z-index: 0;
 }
 
 .star3 {
-	top: 450px;
-    left: 729px;
-	position: relative;
-
 	width: 105px;
 	height: 15px;
 	background: url(../img/depoimentos/blackstar.png);
 	background-size: cover;
+
+	top: 430px;
+    left: 729px;
+	position: relative;
+
     z-index: 0;
 }
 
