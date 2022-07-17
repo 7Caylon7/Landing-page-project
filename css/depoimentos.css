@@ -1,0 +1,182 @@
+/*-----------------------------Depoimentos-----------------------------*/
+#depoimentos {
+	width: 947px;
+	height: 700px;
+	margin: 0 auto;
+    background: #FFF5F5;
+}
+
+#avaliacao{
+	width: 65%;
+	height: 80%;
+	float: left;
+}
+
+.texto-av{
+	width: 345px;
+	height: 80px;
+	margin-top: 25px;
+	margin-bottom: 55px;
+
+	float: left;
+	margin-left: 15px;
+	padding-left: 15px;
+	border-left: 3px solid gray;
+}
+
+.texto-av p{
+	font-size: small;
+	font-family: 'Exo';
+	text-align: justify;
+	letter-spacing: 0.03cm;
+}
+
+.box-img{
+	width: 135px;
+	height: 125px;
+	margin: 0px 0px 30px 70px;
+}
+/*-----------------------------comentarios-----------------------------*/
+#comentario{
+	width: 35%;
+	height: 80%;
+	float: right;
+}
+
+.txt-form1{
+	margin: 0;
+	text-align: center;
+	font-family: 'Abril Fatface', cursive;
+	letter-spacing: 0.04cm;
+	text-transform: uppercase;
+}
+.txt-form2{
+	text-align: center;
+	margin-top: 0;
+	font-family: 'Exo';	
+	margin-bottom: 10px;
+	letter-spacing: 0.04cm;	
+}
+
+form{
+	margin-left: 30px;
+}
+
+input {
+	width: 90%;
+	height: 20px;
+	margin-top: 10px;
+	padding: 13px;
+	border-radius: 20px;
+	letter-spacing: 0.03cm;
+}
+
+form [type="submit"]{
+	width: 60%;
+	height: 40px;
+	color: #9A1808;
+	border: 2px solid #9A1808;
+	background: #FFFFFF;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-left: 45px;
+}
+
+form [type="submit"]:hover{
+	color: #FFF5F5;
+	cursor: pointer;
+	background: #9A1808;
+	transition: 0.5s;
+}
+
+form [type="text"]{
+	border: 2px solid #8C2618;
+}
+
+#coment{
+	padding-bottom: 100px;
+}
+
+/*-----------------------------Imagens dos Depoimentos-----------------------------*/
+.box-img p{
+	font-size: 12px;
+	margin-top: 125px;
+	letter-spacing: 0.03cm;
+}
+#img-depoi-1{
+	float: left;
+	background: url(../img/depoimentos/mulher1.png);
+	background-size: cover;
+}
+
+#img-depoi-2{
+	float: left;
+	background: url(../img/depoimentos/mulher2.png);
+	background-size: cover;
+}
+
+#img-depoi-3{
+	float: left;
+	background: url(../img/depoimentos/mulher3.png);
+	background-size: cover;
+}
+/*-----------------------------Estrelas-----------------------------*/
+.star {
+	width: 105px;
+	height: 15px;
+
+	background: url(../img/depoimentos/estrelas.png);
+	background-size: cover;
+    
+	position: relative;
+    top: 150px;
+    left: 240px;
+
+    z-index: 0;
+}
+
+.star1 {
+	width: 105px;
+	height: 15px;
+
+	background: url(../img/depoimentos/estrelas.png);
+	background-size: cover;
+    
+	position: relative;
+    top: 290px;
+    left: 240px;
+
+    z-index: 0;
+}
+
+.star2 {
+	width: 105px;
+	height: 15px;
+
+	background: url(../img/depoimentos/estrelas.png);
+	background-size: cover;
+    
+	position: relative;
+    top: 430px;
+    left: 240px;
+
+    z-index: 0;
+}
+
+.star3 {
+	top: 450px;
+    left: 729px;
+	position: relative;
+
+	width: 105px;
+	height: 15px;
+	background: url(../img/depoimentos/blackstar.png);
+	background-size: cover;
+    z-index: 0;
+}
+
+.star3:hover{
+	background: url(../img/depoimentos/estrelas.png);
+	background-size: cover;
+	transition: 0.5s;
+}

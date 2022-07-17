@@ -1,0 +1,134 @@
+/*-----------------------------Serviços-----------------------------*/
+#sevicos{
+	font-family: 'Stick no Bills', sans-serif;
+	
+	/*width: 100%;*/
+	width: 1345px;
+	height: 900px;
+
+	background: #FFF5F5;
+}
+#lingerie{
+	width: 100%;
+	height: 50%;
+}
+#sexshop{
+	width: 100%;
+	height: 50%;
+}
+.secao-produtos{
+	height: 80%;
+}
+
+.produtos{
+	width: 184px;
+	height: 240px;
+}
+
+.produtos:hover{
+	transform:scale(1.15,1.15);
+	transition: 0.5s;
+}
+
+#Lingerie1{
+	background: url(../img/produtos/lingerie1.png);
+	background-size: cover;
+}
+
+#Lingerie2{
+	background: url(../img/produtos/lingerie2.png);
+	background-size: cover;
+}
+
+#Lingerie3{
+	background: url(../img/produtos/lingerie3.png);
+	background-size: cover;
+}
+
+#Lingerie4{
+	background: url(../img/produtos/lingerie4.png);
+	background-size: cover;
+}
+
+#Dildo1{
+	background: url(../img/produtos/sexshop1.png);
+	background-size: cover;
+}
+
+#Dildo2{
+	background: url(../img/produtos/sexshop2.png);
+	background-size: cover;
+}
+
+#Dildo3{
+	background: url(../img/produtos/sexshop3.png);
+	background-size: cover;
+}
+
+#Dildo4{
+	background: url(../img/produtos/sexshop4.png);
+	background-size: cover;
+}
+
+.Title{
+	position: relative;
+	width: 230px;
+	height: 45px;
+	left: -22px;
+	top: 0px;
+
+	font-family: 'Exo';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 150%;
+
+	text-align: center;
+	letter-spacing: 0.3em;
+
+	color: rgba(0, 0, 0, 0.65);
+	z-index: 2;
+}
+
+.preco{
+	font-weight: bold;
+	font-size: 12px;
+	position: relative;
+	width: 230px;
+	height: 45px;
+	left: -22px;
+	top: -15px;
+
+	text-align: center;
+	letter-spacing: 0.3em;
+}
+
+.carrinho{
+	background: url(../img/produtos/shopping.png) no-repeat;
+	background-size: cover;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 160px;
+	top: -2px;
+}
+
+#vector{
+	position: relative;
+	width: 100px;
+	height: 0px;
+	left: -12px;
+	top: -16px;
+	border: 0.1px solid rgba(37, 33, 33, 0.19);
+}
+
+/*-----------------------------Cartões dos Produtos-----------------------------*/
+.card {
+	width: 160px;
+	height: 300px;
+   
+	float: left;
+
+    margin-top: 10px;
+    margin-left: 135px;
+}

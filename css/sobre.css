@@ -1,0 +1,52 @@
+/*-----------------------------Sobre Nós-----------------------------*/
+#sobre {
+	width: 947px;
+	height: 500px;
+    margin: 0 auto;
+    background: #FFF5F5;
+}
+
+#paragrafo-sobre{
+	width: 50%;
+	height: 100%;
+	float: left;
+	font-family: 'Abril Fatface', cursive;
+}
+
+#fundo-sobre{
+	width: 50%;
+	height: 100%;
+	float: left;
+	background: url(../img/sobre/laranja.png) no-repeat;
+	background-size: cover;
+}
+
+.paragrafo{
+	font-family: 'Abril Fatface', serif;
+	color: #9A1808;
+	margin: 10% 20%;
+	text-align: center;
+	font-size: 1.1em;
+	letter-spacing: 8%;
+	line-height: 200%;
+}
+
+.sobre {
+	color: #9A1808;
+	text-align: right;	
+	font-family: 'Exo', sans-serif;
+	font-weight: bold;
+	margin-right: 3px;
+	margin-top: 30px;
+	font-size: 1.1em;
+}
+
+.nos {
+	color: #FFF3F3;
+	text-align: left;
+	font-family: 'Exo', sans-serif;
+	font-weight: bold;
+	margin-left: 3px;
+	margin-top: 30px;
+	font-size: 1.1em;
+}
